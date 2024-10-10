@@ -1,16 +1,16 @@
 segsPerDay: 2
 deadline: 15
 company1:
-nMotherboardDevs: 3
-nCPUDevs: 4
-nRAMDevs: 3
-nPowerSupplyDevs: 3
-nGraphicsCardDevs: 3
-nAssemblers: 3
+nMotherboardDevs: 4
+nCPUDevs: 7
+nRAMDevs: 2
+nPowerSupplyDevs: 2
+nGraphicsCardDevs: 2
+nAssemblers: 2
 company2:
 nMotherboardDevs: 2
-nCPUDevs: 3
-nRAMDevs: 3
-nPowerSupplyDevs: 3
-nGraphicsCardDevs: 3
+nCPUDevs: 6
+nRAMDevs: 2
+nPowerSupplyDevs: 2
+nGraphicsCardDevs: 2
 nAssemblers: 1

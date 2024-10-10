@@ -31,14 +31,14 @@ public class Proyecto1GUI extends javax.swing.JFrame {
     }
 
     private void initCompanys() {
-        config1 = new Configuration(3, 18, 1, 1, 1, 1, 1, 1, 7); // el ultimo numero es el del carnet
+        config1 = new Configuration(3, 18, 1, 1, 1, 1, 1, 1, 7);
         config2 = new Configuration(3, 18, 1, 1, 1, 1, 1, 1, 3);
 
-        specsCompany1 = new Specifications(1, 5, 6, 5, 1, 3, 80000, 120000); // cambiar de acuerdo a dell
-        specsCompany2 = new Specifications(2, 3, 4, 6, 5, 6, 180000, 250000); // cambiar de acuerdo a msi
+        specsCompany1 = new Specifications(1, 5, 6, 5, 1, 3, 80000, 120000);
+        specsCompany2 = new Specifications(2, 3, 4, 6, 5, 6, 180000, 250000);
 
-        company1 = new Company(1, "Dell", 7, specsCompany1, config1, this); // tercer atributo es el carnet, cambiar.
-        company2 = new Company(2, "MSI", 3, specsCompany2, config2, this); // tercer atributo es el carnet, cambiar.
+        company1 = new Company(1, "Dell", 7, specsCompany1, config1, this);
+        company2 = new Company(2, "MSI", 3, specsCompany2, config2, this);
 
         max1.setText("Máximo de Empleados: " + Integer.toString(config1.maxEmployees));
         max2.setText("Máximo de Empleados: " + Integer.toString(config2.maxEmployees));
